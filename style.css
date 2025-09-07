@@ -1,4 +1,4 @@
-body{
+body, html{
     font-family: "Caladea";
     background-image: url("engineering.jpg");
     background-repeat: no-repeat;
@@ -54,6 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     overflow-wrap: break-word;
+    margin-right: 4%;
 }
 
 a{
@@ -65,12 +66,18 @@ a{
     display: flex;
 }
 
-.image{
-    margin-right: 4%;
+.imageMachine{
+    margin-left: 11%;
     margin-top: 9%;
     max-width: 100%;
     height: auto;
 } 
+.image{
+    margin-left: 15%;
+    margin-top: 5%;
+    max-width: 100%;
+    height: auto;
+}
 
 #description{
     color: black;
@@ -83,6 +90,7 @@ a{
 
 #instagram{
      filter: invert(44%) sepia(92%) saturate(7499%) hue-rotate(201deg) brightness(92%) contrast(101%);
+     margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
