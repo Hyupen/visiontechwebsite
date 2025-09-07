@@ -5,6 +5,9 @@ body{
     background-clip: unset;
     background-size: cover;
     color: rgb(179, 176, 176);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 #container{
@@ -50,6 +53,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-wrap: break-word;
 }
 
 a{
@@ -62,8 +66,8 @@ a{
 }
 
 .image{
-    margin-left: 10%;
-    margin-top: 2%;
+    margin-right: 15%;
+    margin-top: 7%;
     max-width: 100%;
     height: auto;
 } 
@@ -75,6 +79,10 @@ a{
     border-radius: 100px;
     margin-left: 80px;
     box-shadow: 2px 2px 10px rgba(169, 165, 165, 0.34);
+}
+
+#instagram{
+     filter: invert(44%) sepia(92%) saturate(7499%) hue-rotate(201deg) brightness(92%) contrast(101%);
 }
 
 @media (max-width: 768px) {
