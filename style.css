@@ -68,15 +68,9 @@ a{
     display: flex;
 }
 
-.imageMachine{
-    margin-left: 11%;
-    margin-top: 9%;
-    max-width: 100%;
-    height: auto;
-} 
 .image{
-    margin-left: 15%;
-    margin-top: 5%;
+    position: absolute;
+    right: 0;
     max-width: 100%;
     height: auto;
 }
@@ -91,26 +85,28 @@ a{
 }
 
 #instagram{
-     filter: invert(44%) sepia(92%) saturate(7499%) hue-rotate(201deg) brightness(92%) contrast(101%);
-     margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    filter: invert(44%) sepia(92%) saturate(7499%) hue-rotate(201deg) brightness(92%) contrast(101%);
+    margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
     #container {
         font-size: 1.5rem;
         flex-direction: column;
-        max-width: 100px;
     }
     .sobreText {
         font-size: 11px;
-    }
-    .image{
-        overflow: hidden;
     }
 }
 
 @media (max-width: 1000px) {
     .sobreText {
         font-size: 15px;
+    }
+    .image{
+        position: relative;
+        overflow: hidden;
     }
 }
